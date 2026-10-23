@@ -13,7 +13,7 @@ jobs:
           distribution: temurin
           java-version: '21'
 
-            - name: Extract source
+      - name: Extract source
         run: |
           mkdir -p source
           unzip '*.jar' -d source
