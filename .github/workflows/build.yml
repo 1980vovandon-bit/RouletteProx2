@@ -16,7 +16,7 @@ jobs:
       - name: Extract source
         run: |
           mkdir source
-          unzip RoulettePro-Fabric-1.21.1-source.jar -d source
+        unzip '*.jar' -d source
 
       - name: Build mod
         run: |
